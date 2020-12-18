@@ -8,25 +8,26 @@ const GuardianClient = require("./core/client.js");
 const client = new GuardianClient();
 var approx = require('approximate-number');
 
-client.login(process.env.TOKEN);
+client.login("NzU4NzI0MzY0OTg3NzkzNDE4.X2zHIQ.8_0mBysPcpBu4pm72bzK5vv-Btg");
 
 
 client.on('ready', function() {
    
   
       
-  
-        ////client.user.setActivity(`${client.users.cache.size} Members | `, {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
-  
-  
-      client.user.setActivity("Prefix (+/help)", {type: "", url: "https://www.twitch.tv/flight23white"})
-      
-  
-   /// client.user.setActivity(`${approx(client.guilds.size)} Guilds | ;;help`, {type: "STREAMING", url: "https://www.twitch.tv/const db = require("quick.db"); // npm i const db = require("quick.db"); // npm i quick.db
-
-
  
 
+  
+     /// client.user.setActivity(`${client.users.cache.size} members | +/help `, {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
+  
+  
+      client.user.setActivity("Prefix (+/help)", {type: "WATCHING", url: "https://www.twitch.tv/flight23white"})
+      
+  
+     /// client.user.setActivity(`${approx(client.guilds.size)} Guilds | ;;help`, {type: "STREAMING", url: "https://www.twitch.tv/flight23white"})
+  
+
+  
 
   
   
@@ -35,6 +36,9 @@ client.on('ready', function() {
   
 
 /////////
+
+
+
 
 
 
@@ -91,6 +95,10 @@ message.reply("You cant use here ")
 }
 
 });
+
+
+
+
 
 
   ////
@@ -150,7 +158,16 @@ client.on("guildMemberAdd", async member => {
  
 
   
-  
+
+
+
+
+/////
+
+
+
+ 
+ 
   
   
   
@@ -164,4 +181,5 @@ console.log('LOGS DOWN');
 console.log('')
 });
  
- client.login("NzU3MzM1MTgzMTQ5MjM2MzA5.X2e5Wg.q7Dt0mYDI2j0ndj9wSS9ljrv61U")
+
+
